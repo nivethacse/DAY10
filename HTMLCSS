@@ -1,0 +1,184 @@
+1)HTML Task to know usage of basic tags.
+
+
+Fix the bugs in below snippet
+
+  <html lang="en">
+    <head>
+        <title>Document guvi</title>
+    </head>
+    <body>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <br>
+        Guvi Geek Network
+    </body>
+  </html>
+  
+  
+  2)Try the below one
+  
+  <html lang="en">
+    <head>
+        <title>Document guvi</title>
+   </head>
+   
+    <body>
+     <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       <br>
+       Guvi Geek Network
+     </div>
+        </body>
+    </html>
+    
+    
+    3)Design a contact us form with all fields as required.
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="" method="POST">
+    <tr>
+        <td>FIRST NAME </td>
+            <input type="text" placeholder="write your name">
+       </tr>
+       <br>
+       <br>
+        <tr>
+        <td>FIRST NAME </td>
+            <input type="text" placeholder="write your name">
+       </tr>
+       <br>
+       <br>
+       <tr>
+        <td>LAST NAME </td>
+            <input type="text" placeholder="write your last name">
+       </tr>
+       <br>
+       <br>
+       <tr>
+        <td>Email</td>
+            <input type="email" placeholder="write your email">
+       </tr>
+       <br>
+       <br>
+
+       <tr>
+        <td>password</td>
+            <input type="password" placeholder="write your password">
+       </tr>
+       <br>
+       <br>
+
+       <tr>
+        <td>DOB</td>
+            <input type="date" placeholder="write your password">
+       </tr>
+       <br>
+       <br>
+
+
+      
+       <tr>
+        <td>LOCATION </td>
+        <select name="country" id="country">
+            <option value="India">india</option>
+            <option value="usa">usa</option>
+         <option value="pakistan">pakistan</option>   
+        </select>
+       </tr>
+
+       <button>submit</button>
+</form>
+</body>
+</html>
+
+
+4)Use certain HTML elements to display the following in a HTML page.
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul.a {
+  list-style-type: circle;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+</style>
+</head>
+<body>
+<li>programming
+<ul class="a">
+  <li>JavaScript</li>
+  
+  
+
+  
+  
+  
+ <ol class="d">
+  <li>Angular</li>
+  <li>React</li>
+  <li>vue.js</li>
+</ol>
+</ul>
+<ul class="a">
+  <li>python</li>
+<ol class="d">
+  <li>Django Framework</li>
+  <li>Flask Framework</li>
+</ol>
+<li>JavaScript</li>
+<ul class="a">
+  
+  <ol class="d">
+  <li>Spring</li>
+  <li>Maven</li>
+  <li>Hibernate</li>
+</ol>
+</ul>
+</li>
+
+<li>Database</li>
+<ol class="d">
+  <li>MySQL</li>
+  <li>MongoDB</li>
+  <li>Cansandral</li>
+</ol>
+</ul>
+
+</body>
+</html>
+    
+    
+    
+    
+ 5)Create an element that helps you to open the https://google.com in separate new tab.
+ 
+ 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <a href="https://www.google.com/" target="_blank">click me</a> 
+
+    
+</body>
+</html>
+    
