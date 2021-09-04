@@ -120,11 +120,6 @@ ol.d {
 <ul class="a">
   <li>JavaScript</li>
   
-  
-
-  
-  
-  
  <ol class="d">
   <li>Angular</li>
   <li>React</li>
@@ -207,6 +202,60 @@ ol.d {
 
 
 8)Use the table tag to design given image Click here.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<p align="center">
+ Health chart
+</p>
+  
+
+
+<table style="width:100%">
+  <tr>
+   <th rowspan="2">State of health</th>
+    <th colspan="2">Fasting value</th>
+     <th>after eating</th>
+    <tr>
+    <th >Minimum</th>
+    <th>Maximum</th>
+   
+    <th>2 hr After eating</th>
+    
+  </tr>
+    
+  </tr>
+  <tr>
+    <td>Healthy</td>
+    <td>70</td>
+    <td>100</td>
+    <td>less than 140 </td>
+  </tr>
+  <tr>
+    <td> Pre diabetes</td>
+    <td>100</td>
+    <td>126</td>
+    <td>140 to 200</td>
+  </tr>
+  <tr>
+    <td>  diabetes</td>
+    <td>more than 126</td>
+    <td>N/A</td>
+    <td>more than 200</td>
+  </tr>
+</table>
+</body>
+</html>
+
 
 
 
