@@ -199,6 +199,174 @@ ol.d {
 
 7)Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenclass Task 03/09/2021</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/dark.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script src="content.js" defer></script>
+    <script defer>
+        hljs.highlightAll();
+    </script>
+</head>
+
+<body>
+  <div class="content flex">
+            <form class="flexform">
+                <div class="title">
+                    <h2>Yes! I want to subscribe to <i>Mag-O-Zine</i></h2>
+                </div>
+                <div class="name">
+                    <div class="split">
+                        <input type="text" name="firstname" value="Joe" />
+                        <span>First Name</span>
+                    </div>
+                    <div class="split">
+                        <input type="text" name="lastname" value="Schmegeguie" />
+                        <span>Last Name</span>
+                    </div>
+                </div>
+                <div class="address1">
+                    <div class="split">
+                        <input type="text" name="address" value="1001 Washington Street" />
+                        <span>Address</span>
+                    </div>
+                </div>
+                <div class="address2">
+                    <div class="split">
+                        <input type="text" name="city" value="Auston" />
+                        <span>City</span>
+                    </div>
+                    <div class="split">
+                        <input type="text" name="state" value="CA" />
+                        <span>State</span>
+                    </div>
+                    <div class="split">
+                        <input type="number" name="pin" value="9999" />
+                        <span>Zip</span>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <div class="split">
+                        <span>Subscribe for:</span>
+                    </div>
+                    <div class="radio split">
+                        <input type="radio" name="subscribe" checked /><span>1 year ($19.95)</span>
+                    </div>
+                    <div class="radio split">
+                        <input type="radio" name="subscribe" /><span>2 year ($35.00)</span>
+                    </div>
+                </div>
+                <div class="send">
+                    <div class="split">
+                        <span>Send me more information about:</span>
+                    </div>
+                    <div class="split">
+                        <div><input type='checkbox' name="send" checked /><span> Computer-Zine</span></div>
+                        <div><input type='checkbox' /> <span>Fishing-Zine</span></div>
+                        <div><input type='checkbox' name="send" checked/><span> Cat-O-Zine</span></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+<!------------------------------style.css------------------------------------!>
+.content.flex {
+  display: inline-block;
+  width: 50vw;
+  margin: auto 25%;
+}
+
+.flexform {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  border: 0.2em solid black;
+  margin: 0.1em;
+  width: 100%;
+}
+
+.flexform .title h2 {
+  margin: 0%;
+  padding: 0.5%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.flexform .name {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexform .split {
+  margin: 0 1em;
+}
+
+.flexform .address1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexform .address2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexform .subscribe {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexform input {
+  width: 100%;
+  border: 0;
+  border-bottom: 0.2em solid black;
+  outline: none;
+  text-align: center;
+  font-size: large;
+  font-family: dancing;
+  font-weight: 800;
+}
+
+.flexform span {
+  font-weight: 400;
+}
+
+.subscribe span {
+  font-weight: bold;
+  text-align: start;
+}
+
+.subscribe input {
+  width: auto;
+}
+
+.subscribe input[type=radio]:checked {
+  background-color: black;
+}
+
+.send span {
+  font-weight: bold;
+}
+
+.flexform .send input {
+  width: auto;
+}
+
+.send .split {
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 8)Use the table tag to design given image Click here.
@@ -262,8 +430,7 @@ table, th, td {
 
 9)Write HTML input tags snippet to show default values for all Form elements.
 
-
-
+<a href="index.html">Click here to view the section with default input values form</a>
 
 10)In your, HTML page add the below line and Highlight it without using any CSS.
 "HTML & CSS is awesome"
